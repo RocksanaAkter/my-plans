@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* heading  */
+.header img {
+    width: 100%;
+
+    left: 0px;
+    top: 0px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    padding: 30px 300px;
+
+}
+
+.header-text h1 {
+    font-weight: 800;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+.header-text p {
+    font-size: 25px;
+    color: rgb(82, 82, 82);
+    padding-bottom: 20px;
+}
+
+.btn {
+    font-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #FF5959;
+    border-radius: 5px;
+    padding: 16px 16px;
+    margin-top: 4%;
+    border: 0;
+}
+
+/* 2nd-part */
+.second-part {
+    padding: 100px 400px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.second-part-text {
+    text-align: left;
+}
+
+.second-part-text h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.second-part-text>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    color: rgb(84, 84, 84);
+}
+
+.second-part-text ul>li {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(84, 84, 84);
+}
+
+/* third-part */
+.third-part {
+    padding-top: 5px;
+    padding: 130px 400px;
+}
+
+.third-part h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.plan {
+    display: flex;
+    justify-content: space-around;
+    gap: 90px;
+}
+
+.plan-info {
+    text-align: center;
+}
+
+.plan h3 {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.plan p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+
+}
+
+/* fourth-part */
+.fourth-part{
+    padding-top: 20px;
+    padding: 130px 400px;
+}
+
+.fourth-info{
+    padding: 60px ;
+    background-image: linear-gradient(to bottom right, rgb(237, 126, 86), rgb(237, 237, 229));
+    background-repeat: no-repeat;
+    
+}
+.fourth-info h1{
+     font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+.fourth-info button{
+    font-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF5959;
+    background: #FFFFFF;
+    text-decoration: none;
+
+    border-radius: 5px;
+    padding: 20px 20px;
+
+    border: 0;
+}
+
+.fourth-info button:hover{
+    background: red;
+    color: whitesmoke
+}
+/* bonus-part */
+.download h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: darkred;
+}
+
+.btn-download button {
+    padding: 20px 70px;
+    background: transparent;
+    border: 3px solid aqua;
+    color: black;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-download button::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: red;
+    border-radius: 25px;
+    z-index: -1;
+    transition: 0.5s all ease-in-out;
+}
+
+.btn-download button:hover::after {
+    width: 100%;
+}
+
+
+/* footer-part */
+.footer {
+    display: flex;
+    padding: 130px 400px;
+    margin-top: 100px;
+    border: 5px solid red;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.future h1 {
+
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 25px;
+    color: aliceblue;
+
+}
+
+.future p {
+    color: aliceblue;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.personal-info {
+    padding-bottom: 25px;
+}
+
+.link {
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.subscribe h1 {
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 25px;
+    color: aliceblue;
+}
+
+.subs-info {
+    display: block;
+}
+
+#email {
+    background-color: black;
+
+    padding: 10px 200px 10px 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.subs-btn {
+    font-style: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FF5959;
+    background: #FFFFFF;
+    text-decoration: none;
+
+    border-radius: 5px;
+    padding: 16px 16px;
+    margin-top: 4%;
+    border: 0;
+}
+
+.subs-btn:hover {
+    background: red;
+    color: whitesmoke
+}
